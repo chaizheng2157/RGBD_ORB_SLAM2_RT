@@ -5,7 +5,7 @@ Real-time envrionment reconstruction based on ORB_SLAM2 with XTION (RGBD sensor)
 This is a modified version based on [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map) , thanks for Raul's and Gao's great work! This works with XTION whicn privide us the rgb image and depth image and reconstruct the around environment by the trajectory of sensors. You can visualize the environment by point cloud map during the SLAM process. <br>
 
 ### How to install
-Unzip the file you will find two directories. First compile the modified g2o: <br>
+Unzip the file orb_slam_rgbd.zip, you will find two directories. First compile the modified g2o: <br>
 ```c
   cd g2o_with_orbslam2
   mkdir build

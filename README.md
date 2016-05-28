@@ -29,7 +29,7 @@ Then you can run the examples. In the **Examples/RGB-D**, **rgbd_tum** deals wit
 ```c
   ./Examples/RGB-D/rgbd_xtion_cc Vocabulary/ORBvoc.txt ./Examples/RGB-D/xtion.yaml
 ```
-You can get the intrinsic parameters of your xtion by ROS/OPENCV/MATLAB *calibration*. <br>
+You can get the intrinsic parameters of your xtion by ROS/OPENCV/MATLAB **calibration**. <br>
  
 ### Notes
 1. If you use **kinectv1**, just change the driver for kinect and this project could work. <br>

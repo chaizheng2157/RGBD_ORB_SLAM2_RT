@@ -25,13 +25,13 @@ Then compile the ORB_SLAM2. You need firstly to compile the DBoW2 in ORB_SLAM2_m
 ```
 
 ### Run examples
-Then you can run the examples. In the *Examples/RGB-D*, *rgbd_tum* deals with the datasets of TUM (*desk.jpg room.jpg*), *rgbd_cc* deals with the datasets of your own, *rgbd_xtion_cc* runs with XTION and reconstruct the environment in real-time (*demo1-4.png*). To run *rgbd_xtion_cc*, you can try under ORB_SLAM2_modified/: <br>
+Then you can run the examples. In the **Examples/RGB-D, **rgbd_tum deals with the datasets of TUM (**desk.jpg **room.jpg), **rgbd_cc deals with the datasets of your own, **rgbd_xtion_cc runs with XTION and reconstruct the environment in real-time (*demo1-4.png*). To run **rgbd_xtion_cc, you can try under ORB_SLAM2_modified/: <br>
 ```c
   ./Examples/RGB-D/rgbd_xtion_cc Vocabulary/ORBvoc.txt ./Examples/RGB-D/xtion.yaml
 ```
 You can get the intrinsic parameters of your xtion by ROS/OPENCV/MATLAB *calibration*. <br>
  
 ### Notes
-1. If you use *kinectv1*, just change the driver for kinect and this project could work. <br>
-2. If you use *kinectv2*, maybe you need to change the driver and code to get data from sensors. <br>
+1. If you use **kinectv1, just change the driver for kinect and this project could work. <br>
+2. If you use **kinectv2, maybe you need to change the driver and code to get data from sensors. <br>
 3. If you have some problems about g2o when compiling the orb_slam2, it must be the problem that orb_slam2 finds a wrong version of g2o. Change the *CMakeLists.txt* and *add absolute path* for g2o which is the g2o_with_orbslam2 you just compiled.

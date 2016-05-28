@@ -26,7 +26,7 @@ Then compile the ORB_SLAM2. You need firstly to compile the DBoW2 in ORB_SLAM2_m
 Due to the limited size, the vocabulary file is not contained in the zip file. Please download that .txt file from [ORB_SLAM2_Vocabulary](https://github.com/raulmur/ORB_SLAM2/tree/master/Vocabulary) and put it in Vocabulary/.
 
 ### Run examples
-Then you can run the examples. In the **Examples/RGB-D**, **rgbd_tum** deals with the datasets of TUM (**desk.jpg room.jpg**), **rgbd_cc** deals with the datasets of your own, **rgbd_xtion_cc** runs with XTION and reconstruct the environment in real-time (**demo1-4.png**). To run **rgbd_xtion_cc**, you can try under ORB_SLAM2_modified/: <br>
+Then you can run the examples. In the **Examples/RGB-D**, **rgbd_tum** deals with the datasets of TUM (**desk.png room.png**), **rgbd_cc** deals with the datasets of your own, **rgbd_xtion_cc** runs with XTION and reconstruct the environment in real-time (**orb_rgbd_slam.png lab_1-3.png**). To run **rgbd_xtion_cc**, you can try under ORB_SLAM2_modified/: <br>
 ```c
   ./Examples/RGB-D/rgbd_xtion_cc Vocabulary/ORBvoc.txt ./Examples/RGB-D/xtion.yaml
 ```
